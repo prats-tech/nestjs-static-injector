@@ -11,7 +11,7 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "prepublish": "yarn build",
-    "publish:prats": "yarn publish --access=public"
+    "publish:patch": "npm version patch && yarn publish --access=public"
   },
   "dependencies": {
     "@nestjs/common": "^7.6.15",
