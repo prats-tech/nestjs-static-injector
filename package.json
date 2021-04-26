@@ -1,0 +1,25 @@
+{
+  "name": "@prats-tech/nestjs-static-injector",
+  "version": "0.0.1",
+  "description": "Under development, don't use for production",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "git@github.com:prats-tech/nestjs-static-injector.git",
+  "authors": [
+    "Gustavo Bertoi <gustavo.bertoi@prats.tech>",
+    "Daniel Alves <daniel.alves@prats.tech>"
+  ],
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "dependencies": {
+    "@nestjs/common": "^7.6.15",
+    "@nestjs/core": "^7.6.15",
+    "rxjs": "^6.6.7"
+  },
+  "devDependencies": {
+    "typescript": "4.2.4"
+  }
+}
