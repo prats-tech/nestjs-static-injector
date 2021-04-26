@@ -1,6 +1,6 @@
 {
   "name": "@prats-tech/nestjs-static-injector",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Under development, don't use for production",
   "repository": "git@github.com:prats-tech/nestjs-static-injector.git",
   "authors": [
