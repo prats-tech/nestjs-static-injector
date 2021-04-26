@@ -1,6 +1,6 @@
 {
   "name": "@prats-tech/nestjs-static-injector",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Under development, don't use for production",
   "repository": "git@github.com:prats-tech/nestjs-static-injector.git",
   "authors": [
@@ -8,10 +8,10 @@
     "Daniel Alves <daniel.alves@prats.tech>"
   ],
   "license": "MIT",
-  "private": false,
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "prepublish": "yarn build"
+    "prepublish": "yarn build",
+    "publish:prats": "yarn publish --access=public"
   },
   "dependencies": {
     "@nestjs/common": "^7.6.15",
@@ -21,5 +21,9 @@
   "devDependencies": {
     "@types/node": "14.14.41",
     "typescript": "4.2.4"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
