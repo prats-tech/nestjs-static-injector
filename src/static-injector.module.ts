@@ -1,7 +1,7 @@
-import { Global, Module, OnModuleInit } from "@nestjs/common";
-import { ModuleRef } from "@nestjs/core";
+import { Global, Module, OnModuleInit } from '@nestjs/common';
+import { ModuleRef } from '@nestjs/core';
 
-import { StaticInjector } from "./static-injector.service";
+import { StaticInjector } from './static-injector.service';
 
 @Global()
 @Module({

@@ -1,6 +1,6 @@
-import { Observable, Subject } from "rxjs";
+import { Observable, Subject } from 'rxjs';
 
-import { ModuleRef } from "@nestjs/core";
+import { ModuleRef } from '@nestjs/core';
 
 export class StaticInjector {
   private static instance: StaticInjector;
