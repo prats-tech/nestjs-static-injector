@@ -16,8 +16,14 @@
     "prats"
   ],
   "scripts": {
+    "prepare": "husky install",
+    "lint": "eslint \"{src,test}/**/*.ts\" --fix",
     "format": "prettier --write \"src/**/*.ts\"",
+    "prebuild": "rimraf dist",
     "build": "tsc -p tsconfig.json",
+    "test": "jest --verbose --coverage --maxWorkers=8 --detectOpenHandles --forceExit",
+    "test:watch": "jest --watch",
+    "test:cov": "jest --coverage",
     "prepublish": "yarn build",
     "publish:patch": "npm version patch && yarn publish --access=public",
     "publish:local": "yalc publish --push"
