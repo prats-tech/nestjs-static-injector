@@ -2,7 +2,9 @@
   "name": "@prats-tech/nestjs-static-injector",
   "version": "1.0.0",
   "description": "Static injector for providers on nestjs",
-  "repository": "git@github.com:prats-tech/nestjs-static-injector.git",
+  "repository": {
+    "url": "https://github.com/prats-tech/nestjs-static-injector"
+  },
   "authors": [
     "Gustavo Bertoi <gustavo.bertoi@prats.tech>",
     "Daniel Alves <daniel.alves@prats.tech>"
