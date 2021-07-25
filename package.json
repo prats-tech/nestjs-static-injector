@@ -1,6 +1,6 @@
 {
   "name": "@prats-tech/nestjs-static-injector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Static injector for providers on nestjs",
   "repository": {
     "url": "https://github.com/prats-tech/nestjs-static-injector"
