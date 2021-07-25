@@ -4,10 +4,7 @@ import { ModuleRef } from '@nestjs/core';
 import { StaticInjector } from './static-injector.service';
 
 @Global()
-@Module({
-  providers: [],
-  exports: [],
-})
+@Module({})
 export class StaticInjectorModule implements OnModuleInit {
   constructor(private readonly moduleRef: ModuleRef) {}
 
